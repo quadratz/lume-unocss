@@ -5,13 +5,16 @@
     "serve": "deno task lume -s"
   },
   "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "npm:preact@10.19.6",
     "types": [
       "lume/types.ts"
     ]
   },
   "imports": {
     "lume/": "https://deno.land/x/lume@v2.1.2/",
-    "@unocss/preset-wind": "npm:@unocss/preset-wind@0.58.5"
+    "@unocss/preset-wind": "npm:@unocss/preset-wind@0.58.5",
+    "unocss": "npm:unocss@0.58.5"
   },
   "nodeModulesDir": true
 }
